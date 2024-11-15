@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-950">
+    <nav class="bg-gray-950 z-10 h-16 flex justify-between items-center px-4 fixed top-0 left-0 right-0">
+        <div class="flex justify-start items-center">
+            <button id="menu-button" class="text-white focus:outline-none p-1 m-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <a href="index.html" class="h-10 p-1 m-2 z-10"><img src="Yt-logo.png" class="h-10" alt="youtube logo"></a>
+        </div>
+    
+        <div class="flex items-center justify-center w-5/12">
+            <div class="flex w-full bg-gray-950 border-2 border-gray-800 rounded-3xl overflow-hidden h-12">
+                <input type="text" placeholder=" Search" class="w-full p-2 bg-gray-950 text-white focus:outline-none focus:border-gray-50 rounded-l-3xl" />
+                <button class="buttoncolor px-2 text-white rounded-r-3xl focus:outline-none">
+                    <img src="search-icon.png" alt="">
+                </button>
+            </div>
+            <a href="#" class="flex items-center block py-2 px-2"><img src="mic.png" alt="" class="w-18 h-13 m-0 p-0"></a>
+        </div>
+        
+        
+        <div class="flex justify-center items-center">
+            <a href="#" class="flex items-center block"><img src="vids-maken.png" alt="" class="w-11 h-10 m-0 p-0"></a>
+            <a href="#" class="flex items-center block"><img src="bel.png" alt="" class="w-11 h-8 m-0 p-0"></a>
+            <a href="#" class="flex items-center block"><img src="pfp.png" alt="" class="w-13 h-10 m-0 p-0"></a>
+        </div>
+    </nav>
+
+    <div id="sidebar" class="fixed inset-y-0 w-56 z-10 left-0 top-16 bg-gray-950 text-white sidebar overflow-y-auto max-h-screen">
+        <div class="py-2 px-3">
+            <ul class="mt-2 flex flex-col border-b border-slate-800">
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="home.png" alt="" class="mr-4"><strong>Home</strong></a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="Shorts.png" alt="" class="mr-4">Shorts</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="Subs.png" alt="" class="mr-2">Subscriptions</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="Music.png" alt="" class="mr-2">Youtube Music</a></li>
+            </ul>
+            <ul class="mt-4 flex flex-col border-b border-slate-800">
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><strong>You</strong><img src="arrow.png" alt="" class="mr-4"></a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="history.png" alt="" class="mr-4">History</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="playlist.png" alt="" class="mr-3">Playlists</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="your-video.png" alt="" class="mr-3">Your videos</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="watch-later.png" alt="" class="mr-2">Watch later</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="liked.png" alt="" class="mr-2">Liked videos</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="dowload.png" alt="" class="mr-5">Downloads</a></li>
+            </ul>
+            <ul class="mt-4 flex flex-col border-b border-slate-800">
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><strong>Subscriptions</strong><img src="arrow.png" alt="" class="mr-4"></a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="Aplha.png" alt="" class="mr-5">Alpharad</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="stick.png" alt="" class="mr-3">Alan Becker</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="joshseki.png" alt="" class="mr-3">joshseki</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="keeoh+.png" alt="" class="mr-3">Keeoh+</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="ltt.png" alt="" class="mr-5">Linus Tech Tips</a></li>
+                <li class="py-1"><a href="#" class="flex items-center block py-2 px-2 h-10"><img src="arrow-down.png" alt="" class="mr-4">Show more</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--ik weet een beetje cheating maar ik had niet meer tijd(en energie) -->
+    <div class="ml-56 mt-16">
+        <div class="w-full py-2"><a href="#"><img src="cats.png" alt="" class="w-full"></a></div>
+        <div class="grid grid-cols-3 gap-4">
+            <div><a href="https://www.youtube.com/watch?v=neIYdLysqlk"><img src="vid1.png" alt="" class="w-full"></a></div>
+            <div><a href="https://youtu.be/t42bKJlgphA?si=fmReRIHi8uQPsj7O"><img src="vid2.png" alt="" class="w-full"></a></div>
+            <div><a href="https://youtu.be/qBRaI0ZeAf8?si=uKXhmBG9gCFihBtO"><img src="vid3.png" alt="" class="w-full"></a></div>
+            <div><a href="https://youtu.be/0PhcmPLnF0g?si=L3nCsGWD2zgHttwT"><img src="vid4.png" alt="" class="w-full"></a></div>
+            <div><a href="https://youtu.be/vfe_BW3jKUQ?si=mb69gnGNTFkAVCjW"><img src="vid5.png" alt="" class="w-full"></a></div>
+            <div><a href="https://youtu.be/P2hey3mNnN0?si=jjmXFdE0WRqwgqpt"><img src="vid6.png" alt="" class="w-full"></a></div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
